@@ -1,13 +1,10 @@
 
 
-const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
-function findMatching (collection, string) {
-  for (const user of collection) {
-    if (user === string) {
-    }
+findMatching(drivers, string) {
+  let driver = drivers.filter(function(string){
+    return string;
   }
 }
-findMatching(drivers, 'Bobby');
 
 // var longWords = words.filter(function(word){
 //   return word.length > 6;
