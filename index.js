@@ -2,7 +2,7 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
 
 function findMatching(drivers, string) {
-  drivers.filter(function(string){
+  let matching =  drivers.filter(function(string){
     return string;
   })
 }
