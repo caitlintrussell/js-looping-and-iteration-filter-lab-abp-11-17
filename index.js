@@ -15,10 +15,10 @@ function findMatching(drivers, name){
 
 function fuzzyMatch(array, letters){
   let lengthOfName = letters.length;
-  return drivers.filter(function(driverName){
-    return driverName.slice(0, lengthOfName) === letters;
+  return array.filter(function(driverName){
+    return driverName.slice(0, lengthOfName) === letters
   })
-
+return fuzzyMatchingDriver;
   }
   // 
   // function fuzzyMatch (list, partialName) {
