@@ -14,11 +14,12 @@ function findMatching(drivers, name){
 }
 
 function fuzzyMatch(drivers, letters){
-  let fuzzyMatchingDriver = drivers.filter(function(driver){
+  return fuzzyMatchingDriver = drivers.filter(function(driver){
     if (letters === driver.slice(0,1)){
       return true;
-    } else {
-    return false }
+    } 
+    else {
+      return false }
   })
 return fuzzyMatchingDriver;
   }
