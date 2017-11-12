@@ -1,14 +1,14 @@
 
 
 function findMatch(drivers, name){
-  return drivers.filter(function(driver){
+  let matchingDriver =  drivers.filter(function(driver){
     if (name === driver){
       return true;
     }
     else {
-      return false
+      return false;
     }
-
   )
   }
+  return matchingDriver;
 }
