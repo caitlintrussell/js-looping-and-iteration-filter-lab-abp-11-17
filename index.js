@@ -1,18 +1,17 @@
-// Code your solution in this file
 
 
-function findMatching(drivers, string) {
-  let matching =  drivers.filter(function (string) {
-    return drivers === string;
-  })
+
+function findMatching (drivers, string) {
+  for (const string of drivers) {
+    if (drivers === string) {
+    }
+  }
 }
-findMatching(drivers, "Bobby");
-
 
 // var longWords = words.filter(function(word){
 //   return word.length > 6;
 // });
-// 
+//
 //   name: 'Bobby',
 //   hometown: 'Pittsburgh' },
 // {
