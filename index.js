@@ -1,12 +1,13 @@
 
 
-
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 function findMatching (drivers, string) {
   for (const string of drivers) {
     if (drivers === string) {
     }
   }
 }
+findMatching(drivers, 'Bobby');
 
 // var longWords = words.filter(function(word){
 //   return word.length > 6;
