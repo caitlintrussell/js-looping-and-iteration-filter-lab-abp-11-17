@@ -13,13 +13,16 @@ function findMatching(drivers, name){
   return matchingDriver;
 }
 
-function fuzzyMatch(drivers, letters){
-  return fuzzyMatchingDriver = drivers.filter(function(driver){
-    if (letters === driver.slice(0,1)){
-      return true;
-    } 
-    else {
-      return false }
+function fuzzyMatch(array, letters){
+  let lengthOfName = letters.length;
+  return drivers.filter(function(driverName){
+    return driverName.slice(0, lengthOfName) === letters;
   })
-return fuzzyMatchingDriver;
+
   }
+  // 
+  // function fuzzyMatch (list, partialName) {
+  //   let lengthOfName = partialName.length;
+  //   return list.filter(function (driverName) {
+  //     return driverName.slice(0, lengthOfName) === partialName;
+  //   });
