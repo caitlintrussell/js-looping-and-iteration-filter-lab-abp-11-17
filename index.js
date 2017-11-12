@@ -20,5 +20,5 @@ function fuzzyMatch(drivers, letters){
     } else {
     return false }
   })
-return driver;
+return fuzzyMatchingDriver;
   }
