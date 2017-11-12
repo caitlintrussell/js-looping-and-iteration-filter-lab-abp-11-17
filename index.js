@@ -1,8 +1,12 @@
 // Code your solution in this file
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
 
-function findMatching(drivers, name){
-   drivers.filter(function(name){
-  return drivers = name;
-});
+function findMatching(drivers, string) {
+  drivers.filter(function(string){
+    return string
+  })
 }
+
+// var longWords = words.filter(function(word){
+//   return word.length > 6;
+// });
